@@ -1,10 +1,24 @@
+import Print.printingMethods
+import Strings.stringIteration
+import Variables.casting
+import Variables.createNullableTypes
+import Variables.createVariableTypes
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+    //println("Program arguments: ${args.joinToString()}")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    // ===== Print Options =====
+    //printingMethods()
 
-    val PrintOptions printOptions
-    printOptions.printingMethods()
+    // ===== variable types =====
+    //createVariableTypes()
+
+    // ===== Null Variables =====
+    //createNullableTypes()
+
+    // ===== Casting Variables =====
+    //casting()
+
+    // ===== String manipulation =====
+    stringIteration()
 }

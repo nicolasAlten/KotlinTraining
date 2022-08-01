@@ -1,15 +1,15 @@
 package Print
 
-class PrintOptions {
-    /**
-     * Documentation
-     *
-     * @params: user: String
-     * @property:
-     * @constructor:
-     * @return: void
-     */
-    fun printingMethods(user: String) {
+
+/**
+ * Documentation
+ *
+ * @params: user: String
+ * @property:
+ * @constructor:
+ * @return: void
+ */
+fun printingMethods() {
         //val user = "My user"
         /*val user = "My user"
         val user = "My user"
@@ -21,6 +21,5 @@ class PrintOptions {
 
         println(user + menu)
         println(3+3)
-    }
-
 }
+

@@ -1,15 +1,17 @@
 package Variables
 
-class CastingVariables {
-    fun casting(){
-        var userString :    String =   "user"
-        var userInt  :      Int =        123
-        var userChar :      Char =       'C'
+fun casting(){
+    val userString :    String =   "user"
+    val userInt  :      Int =        123
+    val userChar :      Char =       'C'
 
-        userString.toString()
-        userInt.toByte()
-        userChar.toChar()
+    userString.toString()
+    userInt.toByte()
+    userChar.toChar()
 
-        var newCastingVar : String = userInt as String
-    }
+    val newCastingVar : String = userInt.toString()
+
+    println("userString ===> $userString")
+    println("userInt ===> $userInt")
+    println("newCastingVar ===> $newCastingVar")
 }

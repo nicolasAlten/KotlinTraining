@@ -1,16 +1,15 @@
 package Strings
 
-class StringIteration {
-    fun iterate(){
-        var user = "user"
-        var password = "password"
 
-        print(user[1])
-        user.toList()
+fun stringIteration(){
+    var user = "user"
+    var password = "password"
 
-        user += ""
+    print(user[1])
+    user.toList()
 
-        var newConcatenatedVal = "$user $password"
+    user += ""
 
-    }
+    var newConcatenatedVal = "$user $password"
+
 }
