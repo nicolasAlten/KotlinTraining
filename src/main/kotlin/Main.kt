@@ -1,8 +1,4 @@
-import Print.printingMethods
-import Strings.stringIteration
-import Variables.casting
-import Variables.createNullableTypes
-import Variables.createVariableTypes
+import `for`.*
 
 fun main(args: Array<String>) {
     //println("Program arguments: ${args.joinToString()}")
@@ -20,5 +16,39 @@ fun main(args: Array<String>) {
     //casting()
 
     // ===== String manipulation =====
-    stringIteration()
+    //stringIteration()
+
+
+    //ifElseCase()
+
+    //print(ifElseCatch())
+
+    //switchCase()
+
+    //print(switchCaseWithValue())
+
+    //whenAsFlag()
+
+    //doWhile()
+
+    //ForEachFucntion()
+
+    //ForEachWithIndex()
+
+    //ForEachWithBreakPointer()
+
+    /*val pairResult = Pairs()
+    println("first pair = " + pairResult.first)
+    println("first pair = " + pairResult.second)*/
+
+
+    //ArrayOfFunction()
+
+    //MutableListFunction()
+
+    //EmptyListFunction()
+
+    letFunction()
+
+    //classicalFor()
 }
