@@ -1,4 +1,10 @@
+import Errors.errorHandler
+import Funcitons.internalFunct
+import Funcitons.openFunct
 import `for`.*
+import objects.GeneralClass
+import objects.InterfaceObject
+import objects.SingletonObject
 
 fun main(args: Array<String>) {
     //println("Program arguments: ${args.joinToString()}")
@@ -48,7 +54,19 @@ fun main(args: Array<String>) {
 
     //EmptyListFunction()
 
-    letFunction()
+    //letFunction()
 
     //classicalFor()
+
+    //openFunct()
+    //privateFunct()
+    //internalFunct()
+
+    /*val genObject : GeneralClass =  GeneralClass("name", "name", null)
+    genObject.`printing Json Object`()*/
+
+    /*val interfaceObject : SingletonObject = SingletonObject("name", "soda")
+    print(interfaceObject.run())*/
+
+    errorHandler()
 }
