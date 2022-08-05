@@ -1,7 +1,10 @@
+import Enum.enumExample
 import Errors.errorHandler
 import Funcitons.internalFunct
 import Funcitons.openFunct
+import Regex.RegexExpressionExample
 import `for`.*
+import objects.AbstractClassImpl
 import objects.GeneralClass
 import objects.InterfaceObject
 import objects.SingletonObject
@@ -68,5 +71,13 @@ fun main(args: Array<String>) {
     /*val interfaceObject : SingletonObject = SingletonObject("name", "soda")
     print(interfaceObject.run())*/
 
-    errorHandler()
+    //errorHandler()
+
+    /*val absObj = AbstractClassImpl()
+    absObj.someLogic()
+    absObj.displayUser()*/
+
+    //enumExample
+
+    RegexExpressionExample()
 }
